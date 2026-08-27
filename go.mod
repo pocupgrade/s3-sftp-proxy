@@ -3,14 +3,14 @@ module github.com/moriyoshi/s3-sftp-proxy
 go 1.20
 
 require (
-	github.com/BurntSushi/toml v0.3.1
-	github.com/aws/aws-sdk-go v1.34.0
+	github.com/BurntSushi/toml v0.4.1
+	github.com/aws/aws-sdk-go v1.55.8
 	github.com/kr/fs v0.1.0 // indirect
 	github.com/pkg/errors v0.9.1
-	github.com/pkg/sftp v1.8.3
+	github.com/pkg/sftp v1.13.11
 	github.com/sirupsen/logrus v1.2.0
-	github.com/stretchr/testify v1.5.1
-	golang.org/x/crypto v0.17.0
+	github.com/stretchr/testify v1.12.1
+	golang.org/x/crypto v0.55.0
 )
 
 require (
